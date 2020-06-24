@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Detalhamento"
+  },
+  {
+    "id": 2,
+    "name": "Explosão"
+  },
+  {
+    "id": 3,
+    "name": "Fumaça"
+  },
+  {
+    "id": 4,
+    "name": "Furacão"
+  },
+  {
+    "id": 5,
+    "name": "Granizo"
+  },
+  {
+    "id": 6,
+    "name": "Impacto de veículo"
+  },
+  {
+    "id": 7,
+    "name": "Impossibilidade de ocupação de imóvel"
+  },
+  {
+    "id": 8,
+    "name": "Incêndio"
+  },
+  {
+    "id": 9,
+    "name": "Quebra de mármore ou granito"
+  },
+  {
+    "id": 10,
+    "name": "Quebra de vidro"
+  },
+  {
+    "id": 11,
+    "name": "Queda de aeronave"
+  },
+  {
+    "id": 12,
+    "name": "Queda de raio"
+  },
+  {
+    "id": 13,
+    "name": "Roubo ou furto"
+  },
+  {
+    "id": 14,
+    "name": "Tornado"
+  },
+  {
+    "id": 15,
+    "name": "Tumulto ou greve"
+  },
+  {
+    "id": 16,
+    "name": "Vendaval"
+  }
+]
