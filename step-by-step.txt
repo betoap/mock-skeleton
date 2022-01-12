@@ -16,6 +16,7 @@ npm i @angular-architects/module-federation@12.5.3
 ng g application host --routing --style=scss
 ng g m home --routing --project=host
 ng g c home --project=host
+touch host\src\decl.d.ts => declare module 'mfe1/HomeModule';
 ng add @angular-architects/module-federation --project host --port 4200
 
 ng g application mfe1 --routing --style=scss
