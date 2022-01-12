@@ -1,0 +1,31 @@
+ng config cli.packageManager yarn -g 
+
+ng new <PACK-NAME> --createApplication="false"
+
+
+ng g application <APP-NAME> --routing --style=scss
+ng g c <COMP-NAME> --project=<APP-NAME>
+
+ng add @angular-architects/module-federation --project <APP-NAME> --port <PORT>
+
+
+
+ng new federation --createApplication="false"
+npm i @angular-architects/module-federation@12.5.3
+
+ng g application host --routing --style=scss
+ng g m home --routing --project=host
+ng g c home --project=host
+ng add @angular-architects/module-federation --project host --port 4200
+
+ng g application mfe1 --routing --style=scss
+ng g m home --routing --project=mfe1
+ng g c home --project=mfe1
+ng add @angular-architects/module-federation --project mfe1 --port 4300
+
+
+ng g m contact --routing --project=mfe1
+ng g c contact --project=mfe1
+
+
+
